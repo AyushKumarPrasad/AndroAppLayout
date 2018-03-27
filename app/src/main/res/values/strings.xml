@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AndroAppLayout</string>
+    <string name="calendar">Calendar</string>
+    <string name="todo">TODO</string>
+    <string name="friends">Friends</string>
+    <string name="me">Me</string>
+    <string name="love">Love</string>
+    <string name="pasandita_muhavre">Pasandita Muhavre</string>
+    <string name="sampark_kare">Sampark Kare</string>
+    <string name="kramankh_anusar_muhavre">Kramankh anusar Muhavre</string>
+    <string name="muhavre">Muhavre</string>
+    <string name="muhavre_aur_vakya">Muhavre aur Vakya</string>
+    <string name="muhavre_arth_aur_vakya">Muhavre Arth aur Vakya</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

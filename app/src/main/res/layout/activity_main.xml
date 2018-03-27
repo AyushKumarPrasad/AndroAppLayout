@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="vertical"
+    android:background="@drawable/pogs"
+    android:weightSum="10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayushkumar.androapplayout.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.Toolbar
+        android:alpha="0.9"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar1"
+        android:paddingEnd="10dp"
+        app:titleMarginStart="85dp"
+        android:background="#00695C"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <Button
+            android:layout_width="40dp"
+            android:background="@drawable/share"
+            android:layout_height="40dp"
+            android:id="@+id/sharebutton"
+            android:layout_gravity="right" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </RelativeLayout>
+
+    <GridLayout
+
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:padding="10dp"
+        android:rowCount="3">
+        <!-- Row 1 -->
+
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+
+            android:clickable="true"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:cardBackgroundColor="#F9D18B"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" android:focusable="true" tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:background="@drawable/muhavre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/card1"
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                android:orientation="vertical">
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Column 2 -->
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+
+            android:layout_width="0dp"
+            app:cardBackgroundColor="#F9D18B"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true" tools:targetApi="lollipop">
+
+            <LinearLayout
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/famoursmuhavre"
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Row 1 -->
+
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+
+            android:layout_width="0dp"
+            app:cardBackgroundColor="#F9D18B"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" android:focusable="true">
+
+            <LinearLayout
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/muhavrebody"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Column 2 -->
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="0dp"
+
+            android:layout_height="0dp"
+            app:cardBackgroundColor="#F9D18B"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true">
+
+            <LinearLayout
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/muhavreee"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Row 1 -->
+
+        <!-- Column 1 -->
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:cardBackgroundColor="#F9D18B"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            android:focusable="true">
+
+            <LinearLayout
+                android:background="@drawable/contact"
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <!-- Column 2 -->
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#F9D18B"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_rowWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp" tools:targetApi="lollipop"
+            android:focusable="true">
+
+            <LinearLayout
+                android:id="@+id/card6"
+                android:layout_width="match_parent"
+                android:background="@drawable/heart"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>
+
